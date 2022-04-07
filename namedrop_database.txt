@@ -1,0 +1,25 @@
+Relational databases: Microsoft Sql Server, Oracle Database, MySQL,
+ MariaDB, PostgreSQL, Amazon Aurora.
+NoSQL:
+-Key Value Pair Based
+Amazon DynamoDB
+- Column-based
+Apache Cassandra
+-Document-Oriented
+Amazon SimpleDB
+-Graph-Based
+Neo4J
+
+In-memory databases 
+-Amazon MemoryDB
+-Amazon ElastucCache
+
+What is difference between relational and NoSQL database?
+Relational databases store data according to specific schemas.
+ By contrast, NoSQL systems allow data to be stored using any structure required but provides a way for updating that data when changing that structure.
+
+ In-memory databases vs. persistent
+An in-memory database system (IMDS) is a database management system that stores data entirely in main memory.
+ This contrasts to traditional (on-disk/persistent) database systems, which are designed store data on persistent media.
+ Because working with data in memory is much faster than writing to and reading from a file system, IMDSs can perform applications’ data management functions orders of magnitude faster.
+ Because their design is typically simpler than that of persistent database systems, IMDSs can also impose significantly lower memory and CPU requirements.
